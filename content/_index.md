@@ -42,91 +42,139 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  - block: skills
-    content:
-      title: Skills
-      text: ''
-      # Choose a user to display skills from (a folder name within `content/authors/`)
-      username: admin
-    design:
-      columns: '1'
+  # - block: skills
+  #   content:
+  #     title: Skills
+  #     text: ''
+  #     # Choose a user to display skills from (a folder name within `content/authors/`)
+  #     username: admin
+  #   design:
+  #     columns: '1'
   - block: experience
     content:
       title: Experience
       # Date format for experience
       #   Refer to https://docs.hugoblox.com/customization/#date-format
-      date_format: Jan 2006
+      date_format: Sep 2023 - Aug 2024
       # Experiences.
       #   Add/remove as many `experience` items below as you like.
       #   Required fields are `title`, `company`, and `date_start`.
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: Part-time Lecturer in Natural Language Processing
+          company: EPF Engineering School
           company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+          company_logo: org-epf
+          location: Montpellier, France
+          date_start: '2023-09-20'
           date_end: ''
           description: |2-
-              Responsibilities include:
+              Course: **Natural Language Processing (NLP)**
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+              * Responsibilites: **Module Leader**, **Module Lecturer**, **Exam-Setting** for a class of **25 MSc students**
+
+              Curriculum (15h):
+
+              * Introduction to NLP and preprocessing pipelines
+              * Vectorization methods and machine Learning for NLP
+              * Word Embeddings and Text Similarity
+              * Sequence-to-Sequence Deep Learning models
+
+        - title: Data Scientist Intern
+          company: BMW Group
           company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          company_logo: org-bmw
+          location: Munich, Germany
+          date_start: '2023-02-01'
+          date_end: '2023-08-01'
+          description: |2-
+              Master thesis title: ***"Time Series Based Anomaly Detection For Fleet Connectivity"***
+
+              Grade: **20/20 (100%)**
+
+              * Development and evaluation of **statistical and ML-based methods** to **detect vehicle connectivity anomalies** in the networked ConnectedDrive fleet.
+              * Development of **ETL pipelines** in the context of Big Data to provide data for analysis.
+              * Design and development of **dashboards for visualization** and stakeholder-adequate reports.
+              * **Presentation** of the evaluated methods and results in **project and management rounds**.
+  
+        - title: Data Scientist (Remote Student Job)
+          company: CEWE Stiftung & Co. KGaA
+          company_url: ''
+          company_logo: org-cewe
+          location: Fabrègues, France
+          date_start: '2022-06-01'
+          date_end: '2022-07-26'
+          description: |2-
+              ***Building an Aspect-Based Sentiment Analysis pipeline***
+              * Designed and implemented an NL¸ pipeline combining topic extraction and sentiment analysis of customer reviews
+              * Applied the pipeline to analyze and gain insights from customer feedback in French and German.
+
+        - title: Data Scientist Intern
+          company: CEWE Stiftung & Co. KGaA
+          company_url: ''
+          company_logo: org-cewe
+          location: Oldenburg, Germany
+          date_start: '2021-07-14'
+          date_end: '2022-01-01'
+          description: |2-
+              Bachelor Thesis Title: ***"Multilingual Text Classification using Transformers"***
+
+              Grade: **17.67/20 (88.4%)**
+              
+              * Fine-tuned an **XLM-RoBERTa** *(Goyal, 2020)* model using **Transfer Learning** techniques on 110.000 documents
+              * Implemented **Temperature Scaling** *(Guo, 2017)* to produce calibrated probability outputs, enabling **uncertainty estimation**
+              * Achieved an **F1-score of 93%** across **14 classes** in **3 languages** (German, English and French)
+              * Deployed an **active learning web application** to facilitate **collaborative data labeling** and **efficient model training**
+                          
     design:
       columns: '2'
-  - block: accomplishments
-    content:
-      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
-      subtitle:
-      # Date format: https://docs.hugoblox.com/customization/#date-format
-      date_format: Jan 2006
-      # Accomplishments.
-      #   Add/remove as many `item` blocks below as you like.
-      #   `title`, `organization`, and `date_start` are the required parameters.
-      #   Leave other parameters empty if not required.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - certificate_url: https://www.coursera.org
-          date_end: ''
-          date_start: '2021-01-25'
-          description: ''
-          icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
-          url: ''
-        - certificate_url: https://www.edx.org
-          date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          icon: edx
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
-    design:
-      columns: '2'
+                
+        
+  # - block: accomplishments
+  #   content:
+  #     # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
+  #     title: 'Accomplish&shy;ments'
+  #     subtitle:
+  #     # Date format: https://docs.hugoblox.com/customization/#date-format
+  #     date_format: Jan 2006
+  #     # Accomplishments.
+  #     #   Add/remove as many `item` blocks below as you like.
+  #     #   `title`, `organization`, and `date_start` are the required parameters.
+  #     #   Leave other parameters empty if not required.
+  #     #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+  #     items:
+  #       - certificate_url: https://www.coursera.org
+  #         date_end: ''
+  #         date_start: '2021-01-25'
+  #         description: ''
+  #         icon: coursera
+  #         organization: Coursera
+  #         organization_url: https://www.coursera.org
+  #         title: Neural Networks and Deep Learning
+  #         url: ''
+  #       - certificate_url: https://www.edx.org
+  #         date_end: ''
+  #         date_start: '2021-01-01'
+  #         description: Formulated informed blockchain models, hypotheses, and use cases.
+  #         icon: edx
+  #         organization: edX
+  #         organization_url: https://www.edx.org
+  #         title: Blockchain Fundamentals
+  #         url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+  #       - certificate_url: https://www.datacamp.com
+  #         date_end: '2020-12-21'
+  #         date_start: '2020-07-01'
+  #         description: ''
+  #         icon: datacamp
+  #         organization: DataCamp
+  #         organization_url: https://www.datacamp.com
+  #         title: 'Object-Oriented Programming in R'
+  #         url: ''
+  #   design:
+  #     columns: '2'
+
+  
   - block: collection
     id: posts
     content:
@@ -134,7 +182,7 @@ sections:
       subtitle: ''
       text: ''
       # Choose how many pages you would like to display (0 = all pages)
-      count: 5
+      count: 0
       # Filter on criteria
       filters:
         folders:
@@ -154,6 +202,8 @@ sections:
       # Choose a layout view
       view: compact
       columns: '2'
+
+
   - block: portfolio
     id: projects
     content:
@@ -171,113 +221,107 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
-        - name: Other
-          tag: Demo
+        - name: Personal Projects
+          tag: Personal Projects
+        - name: Open Source Contributions
+          tag: Open Source Contributions
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
+      columns: '2'
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
-  - block: markdown
-    content:
-      title: Gallery
-      subtitle: ''
-      text: |-
-        {{< gallery album="demo" >}}
-    design:
-      columns: '1'
-  - block: collection
-    id: featured
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      columns: '2'
-      view: card
-  - block: collection
-    content:
-      title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      columns: '2'
-      view: compact
-  - block: tag_cloud
-    content:
-      title: Popular Topics
-    design:
-      columns: '2'
+
+  # - block: markdown
+  #   content:
+  #     title: Gallery
+  #     subtitle: ''
+  #     text: |-
+  #       {{< gallery album="demo" >}}
+  #   design:
+  #     columns: '1'
+
+  # - block: collection
+  #   id: featured
+  #   content:
+  #     title: Featured Publications
+  #     filters:
+  #       folders:
+  #         - publication
+  #       featured_only: true
+  #   design:
+  #     columns: '2'
+  #     view: card
+
+  # - block: collection
+  #   content:
+  #     title: Recent Publications
+  #     text: |-
+  #       {{% callout note %}}
+  #       Quickly discover relevant content by [filtering publications](./publication/).
+  #       {{% /callout %}}
+  #     filters:
+  #       folders:
+  #         - publication
+  #       exclude_featured: true
+  #   design:
+  #     columns: '2'
+  #     view: citation
+
+  # - block: collection
+  #   id: talks
+  #   content:
+  #     title: Recent & Upcoming Talks
+  #     filters:
+  #       folders:
+  #         - event
+  #   design:
+  #     columns: '2'
+  #     view: compact
+
+  # - block: tag_cloud
+  #   content:
+  #     title: Popular Topics
+  #   design:
+  #     columns: '2'
+  
   - block: contact
     id: contact
     content:
       title: Contact
-      subtitle:
-      text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+      # subtitle:
+      # text: |-
+      #   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
-      address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
-      # Choose a map provider in `params.yaml` to show a map from these coordinates
-      coordinates:
-        latitude: '37.4275'
-        longitude: '-122.1697'  
-      contact_links:
-        - icon: twitter
-          icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
-        - icon: skype
-          icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
-        - icon: video
-          icon_pack: fas
-          name: Zoom Me
-          link: 'https://zoom.com'
+      email: ryan [dot] pegoud [at] epfedu [dot] fr
+      # phone: 888 888 88 88
+      # appointment_url: 'https://calendly.com'
+      # address:
+      #   street: 450 Serra Mall
+      #   city: Stanford
+      #   region: CA
+      #   postcode: '94305'
+      #   country: United States
+      #   country_code: US
+      # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+      # office_hours:
+      #   - 'Monday 10:00 to 13:00'
+      #   - 'Wednesday 09:00 to 10:00'
+      # # Choose a map provider in `params.yaml` to show a map from these coordinates
+      # coordinates:
+      #   latitude: '37.4275'
+      #   longitude: '-122.1697'  
+      
       # Automatically link email and phone or display as text?
-      autolink: true
+      autolink: false
       # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+      # form:
+      #   provider: netlify
+      #   formspree:
+      #     id:
+      #   netlify:
+      #     # Enable CAPTCHA challenge to reduce spam?
+      #     captcha: false
     design:
       columns: '2'
 ---
