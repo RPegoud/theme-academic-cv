@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ''
+title: ""
 date: 2022-10-24
 type: landing
 
@@ -12,7 +12,7 @@ sections:
       image:
         filename: hero-academic.png
       cta:
-        label: '**Get Started**'
+        label: "**Get Started**"
         url: https://hugoblox.com/templates/
       cta_alt:
         label: Ask a question
@@ -33,8 +33,8 @@ sections:
         <script async defer src="https://buttons.github.io/buttons.js"></script>
     design:
       background:
-        gradient_end: '#1976d2'
-        gradient_start: '#004ba0'
+        gradient_end: "#1976d2"
+        gradient_start: "#004ba0"
         text_color_light: true
   - block: about.biography
     id: about
@@ -50,6 +50,22 @@ sections:
   #     username: admin
   #   design:
   #     columns: '1'
+  - block: collection
+    id: publication
+    content:
+      title: Recent Publications
+      # text: |-
+      #   {{% callout note %}}
+      #   Quickly discover relevant content by [filtering publications](./publication/).
+      #   {{% /callout %}}
+      filters:
+        folders:
+          - publication
+        exclude_featured: false
+    design:
+      columns: "2"
+      view: citation
+
   - block: experience
     content:
       title: Experience
@@ -64,11 +80,11 @@ sections:
       items:
         - title: Part-time Lecturer in Natural Language Processing
           company: EPF Engineering School
-          company_url: ''
+          company_url: ""
           company_logo: org-epf
           location: Montpellier, France
-          date_start: '2023-09-20'
-          date_end: ''
+          date_start: "2023-09-20"
+          date_end: ""
           description: |2-
               Course: **Natural Language Processing (NLP)**
 
@@ -83,11 +99,11 @@ sections:
 
         - title: Data Scientist Intern
           company: BMW Group
-          company_url: ''
+          company_url: ""
           company_logo: org-bmw
           location: Munich, Germany
-          date_start: '2023-02-01'
-          date_end: '2023-08-01'
+          date_start: "2023-02-01"
+          date_end: "2023-08-01"
           description: |2-
               Master thesis title: ***"Time Series Based Anomaly Detection For Fleet Connectivity"***
 
@@ -97,14 +113,14 @@ sections:
               * Development of **ETL pipelines** in the context of Big Data to provide data for analysis.
               * Design and development of **dashboards for visualization** and stakeholder-adequate reports.
               * **Presentation** of the evaluated methods and results in **project and management rounds**.
-  
+
         - title: Data Scientist (Remote Student Job)
           company: CEWE Stiftung & Co. KGaA
-          company_url: ''
+          company_url: ""
           company_logo: org-cewe
           location: Fabrègues, France
-          date_start: '2022-06-01'
-          date_end: '2022-07-26'
+          date_start: "2022-06-01"
+          date_end: "2022-07-26"
           description: |2-
               ***Building an Aspect-Based Sentiment Analysis pipeline***
               * Designed and implemented an NL¸ pipeline combining topic extraction and sentiment analysis of customer reviews
@@ -112,11 +128,11 @@ sections:
 
         - title: Data Scientist Intern
           company: CEWE Stiftung & Co. KGaA
-          company_url: ''
+          company_url: ""
           company_logo: org-cewe
           location: Oldenburg, Germany
-          date_start: '2021-07-14'
-          date_end: '2022-01-01'
+          date_start: "2021-07-14"
+          date_end: "2022-01-01"
           description: |2-
               Bachelor Thesis Title: ***"Multilingual Text Classification using Transformers"***
 
@@ -126,11 +142,10 @@ sections:
               * Implemented **Temperature Scaling** *(Guo, 2017)* to produce calibrated probability outputs, enabling **uncertainty estimation**
               * Achieved an **F1-score of 93%** across **14 classes** in **3 languages** (German, English and French)
               * Deployed an **active learning web application** to facilitate **collaborative data labeling** and **efficient model training**
-                          
+
     design:
-      columns: '2'
-                
-        
+      columns: "2"
+
   # - block: accomplishments
   #   content:
   #     # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
@@ -174,13 +189,12 @@ sections:
   #   design:
   #     columns: '2'
 
-  
   - block: collection
     id: posts
     content:
       title: Recent Posts
-      subtitle: ''
-      text: ''
+      subtitle: ""
+      text: ""
       # Choose how many pages you would like to display (0 = all pages)
       count: 0
       # Filter on criteria
@@ -201,8 +215,7 @@ sections:
     design:
       # Choose a layout view
       view: compact
-      columns: '2'
-
+      columns: "2"
 
   - block: portfolio
     id: projects
@@ -220,14 +233,14 @@ sections:
       # To remove the toolbar, delete the entire `filter_button` block.
       buttons:
         - name: All
-          tag: '*'
+          tag: "*"
         - name: Personal Projects
           tag: Personal Projects
         - name: Open Source Contributions
           tag: Open Source Contributions
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '2'
+      columns: "2"
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
@@ -254,21 +267,6 @@ sections:
   #     view: card
 
   # - block: collection
-  #   content:
-  #     title: Recent Publications
-  #     text: |-
-  #       {{% callout note %}}
-  #       Quickly discover relevant content by [filtering publications](./publication/).
-  #       {{% /callout %}}
-  #     filters:
-  #       folders:
-  #         - publication
-  #       exclude_featured: true
-  #   design:
-  #     columns: '2'
-  #     view: citation
-
-  # - block: collection
   #   id: talks
   #   content:
   #     title: Recent & Upcoming Talks
@@ -284,7 +282,7 @@ sections:
   #     title: Popular Topics
   #   design:
   #     columns: '2'
-  
+
   - block: contact
     id: contact
     content:
@@ -293,7 +291,8 @@ sections:
       # text: |-
       #   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
-      email: ryan [dot] pegoud [at] outlook [dot] com
+      email: ryan [dot] pegoud [dot] 24 [at] ucl [dot] ac [dot] uk
+
       # phone: 888 888 88 88
       # appointment_url: 'https://calendly.com'
       # address:
@@ -310,8 +309,8 @@ sections:
       # # Choose a map provider in `params.yaml` to show a map from these coordinates
       # coordinates:
       #   latitude: '37.4275'
-      #   longitude: '-122.1697'  
-      
+      #   longitude: '-122.1697'
+
       # Automatically link email and phone or display as text?
       autolink: false
       # Email form provider
@@ -323,5 +322,5 @@ sections:
       #     # Enable CAPTCHA challenge to reduce spam?
       #     captcha: false
     design:
-      columns: '2'
+      columns: "2"
 ---

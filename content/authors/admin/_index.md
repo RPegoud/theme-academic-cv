@@ -3,7 +3,7 @@
 title: Ryan Pégoud
 
 # # Name pronunciation (optional)
-# name_pronunciation: 
+# name_pronunciation:
 
 # Full name (for SEO)
 first_name: Ryan
@@ -17,12 +17,12 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Part-time lecturer in Natural Language Processing
+role: MSc Student in Computational Statistics and Machine Learning
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: EPF Engineering School
-    url: https://www.epf.fr
+  - name: University College London
+    url: https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/computational-statistics-and-machine-learning-msc
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include Reinforcement Learning in Open-Ended settings, leading to more general and robust agents.
@@ -32,8 +32,7 @@ interests:
   - Reinforcement Learning
   - Open-endedness
   - Curriculum Learning
-  - Evolutionary Algorithms
-
+  - Alignment / AI Safety
 # Education to show in About widget
 education:
   courses:
@@ -91,7 +90,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
+    link: "/#contact"
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen
@@ -118,9 +117,10 @@ social:
 highlight_name: true
 ---
 
-I'm a part-time lecturer in Natural Language Processing at [EPF Engineering School](https://www.epf.fr) as well as an independent researcher in Reinforcement Learning.
+I'm currently studying in the [**Computational Statistics and Machine Learning MSc**](https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/computational-statistics-and-machine-learning-msc) program at [**UCL**](https://www.ucl.ac.uk). I'm looking forward to pursue a PhD in Reinforcement Learning (RL) and am particularly interested in using methods from Open-Endedness to solve alignment from an RL perspective. For more details, feel free to take a look at my [**research proposal**](/uploads/Research_Proposal.pdf).
+
+Previously, I was a lecturer at [EPF Engineering School](https://www.epf.fr) in charge of the Natural Language Processing module, while working on independent research in Reinforcement Learning.
 
 I completed an MEng in Data Engineering at [EPF Engineering School](https://www.epf.fr) during which I worked on anomaly detection in time series at [BMW](https://www.bmwgroup.jobs/de/en.html) and multilingual text classification at [CEWE](https://www.cewe.fr).
 
-In September 2024, I will join the [Computational Statistics and Machine Learning MSc](https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/computational-statistics-and-machine-learning-msc) at [UCL](https://www.ucl.ac.uk).
 {style="text-align: justify;"}

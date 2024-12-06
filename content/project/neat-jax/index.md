@@ -1,6 +1,6 @@
 ---
 title: Neat-JAX
-summary: JAX implementation of NeuroEvolution of Augmenting Topologies (Neat).
+summary: JAX implementation of NeuroEvolution of Augmenting Topologies (Neat). (in progress)
 tags:
   - Personal Projects
 date: "2024-01-01T00:00:00Z"
@@ -11,8 +11,6 @@ external_link: https://github.com/RPegoud/neat-jax
 image:
   caption: Neat-JAX logo
   focal_point: Smart
-
-
 # links:
 #   - icon: twitter
 #     icon_pack: fab
